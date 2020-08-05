@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/secure_connect_scan"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_lock_24px"
+        android:title="@string/secure_connect"/>
+
+    <item
+        android:id="@+id/insecure_connect_scan"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_lock_open_24px"
+        android:title="@string/insecure_connect"/>
+
+    <item
+        android:id="@+id/discoverable"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_visibility_24px"
+        android:title="@string/discoverable"/>
+
+</menu>

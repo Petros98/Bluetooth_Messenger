@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_img_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:strokeColor="@color/colorAccent"
+        app:strokeWidth="2dp"
+        android:background="@drawable/gradient"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-black"
+        android:text="send"
+        app:cornerRadius="20dp"
+        android:textColor="@color/white" />
+</LinearLayout>
